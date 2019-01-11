@@ -1,0 +1,210 @@
+body{
+    background-color: #92b3f0;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 500%;
+    margin-top: 1;
+    text-align: left;
+}
+
+a.effect-shine:hover {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(15, 3, 83, 0.6) 30%, #000 50%, rgba(26, 6, 82, 0.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+  }
+  
+  @-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    background-color:gray;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .centered{
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+
+  header{
+    font-size: 200%;
+  }
+
+  h2, p, h3, h4 {
+      color: black;
+      
+  }
+
+
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 8px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  
+
+  /*pt login */
+  form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(75, 3, 65);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.buton{
+  background-color: rgb(91, 166, 216);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+.buton:hover{
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.poza{
+  position: relative;
+    text-align: center;
+
+}
+
+#listaDorinte {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  
+}
+
+.text{
+position: sticky;
+}
+
+.changedColor{
+  color: Crimson;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media only all and (max-width: 768px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+  h1{
+    flex-direction: row;
+  }
+ 
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media only all and (min-width: 768px) and (max-width: 1280px) {
+  .column {
+    flex: 100%;
+   /* max-width: 100%; */
+  }
+  h1{
+    flex-direction: row;
+  }
+
+
+}
+
+@media all and (min-widt: 1280px) {
+  span.psw {
+    display: block;
+    float: none;
+ }
+ .cancelbtn {
+    width: 100%;
+ }
+ h1{
+  flex-direction: row;
+ }
+
+
+
+}

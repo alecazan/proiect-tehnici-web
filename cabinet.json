@@ -1,0 +1,14 @@
+{
+  "programare": [
+    {
+      "id": 101,
+      "nume": "Ionescu Maria",
+      "numarTelefon": "08872"
+    },
+    {
+      "id": 102,
+      "nume": "Popa Virgil",
+      "numarTelefon": "0723905309"
+    }
+  ]
+}
